@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.0 (2568 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="-12.0662200" minlon="-77.0760100" maxlat="-12.0652300" maxlon="-77.0740200"/>
+ <node id="316803496" visible="true" version="8" changeset="41266275" timestamp="2016-08-05T18:27:12Z" user="JuanVerde" uid="3474216" lat="-12.0679589" lon="-77.0755507"/>
+ <node id="499840956" visible="true" version="3" changeset="41327360" timestamp="2016-08-08T15:54:07Z" user="JuanVerde" uid="3474216" lat="-12.0659654" lon="-77.0772920"/>
+ <node id="499841740" visible="true" version="3" changeset="41265487" timestamp="2016-08-05T18:02:24Z" user="JuanVerde" uid="3474216" lat="-12.0672908" lon="-77.0742480"/>
+ <node id="499841834" visible="true" version="2" changeset="8677988" timestamp="2011-07-09T20:56:16Z" user="negro" uid="92311" lat="-12.0639196" lon="-77.0743395"/>
+ <node id="499843646" visible="true" version="3" changeset="12461103" timestamp="2012-07-24T07:20:41Z" user="Polyglot" uid="15188" lat="-12.0659289" lon="-77.0752837"/>
+ <node id="499843649" visible="true" version="3" changeset="12461103" timestamp="2012-07-24T07:20:41Z" user="Polyglot" uid="15188" lat="-12.0659106" lon="-77.0742757"/>
+ <node id="499845689" visible="true" version="5" changeset="41327360" timestamp="2016-08-08T15:54:07Z" user="JuanVerde" uid="3474216" lat="-12.0654816" lon="-77.0773514"/>
+ <node id="499845695" visible="true" version="2" changeset="8677988" timestamp="2011-07-09T20:56:56Z" user="negro" uid="92311" lat="-12.0641396" lon="-77.0753949"/>
+ <node id="499846302" visible="true" version="2" changeset="8677988" timestamp="2011-07-09T20:56:32Z" user="negro" uid="92311" lat="-12.0640068" lon="-77.0748429"/>
+ <node id="1273782551" visible="true" version="2" changeset="42644906" timestamp="2016-10-04T23:19:22Z" user="Diego Sanguinetti" uid="309382" lat="-12.0666308" lon="-77.0752454"/>
+ <node id="1273869776" visible="true" version="3" changeset="42644906" timestamp="2016-10-04T23:19:22Z" user="Diego Sanguinetti" uid="309382" lat="-12.0666121" lon="-77.0742565"/>
+ <node id="1355562698" visible="true" version="1" changeset="8677988" timestamp="2011-07-09T20:56:03Z" user="negro" uid="92311" lat="-12.0643062" lon="-77.0753495"/>
+ <node id="1836204801" visible="true" version="1" changeset="12461103" timestamp="2012-07-24T07:20:25Z" user="Polyglot" uid="15188" lat="-12.0648043" lon="-77.0752998"/>
+ <node id="1836204803" visible="true" version="1" changeset="12461103" timestamp="2012-07-24T07:20:25Z" user="Polyglot" uid="15188" lat="-12.0654179" lon="-77.0738175"/>
+ <node id="1836204804" visible="true" version="1" changeset="12461103" timestamp="2012-07-24T07:20:25Z" user="Polyglot" uid="15188" lat="-12.0654222" lon="-77.0742914"/>
+ <node id="1836204805" visible="true" version="1" changeset="12461103" timestamp="2012-07-24T07:20:25Z" user="Polyglot" uid="15188" lat="-12.0654277" lon="-77.0747968"/>
+ <node id="1836204825" visible="true" version="2" changeset="41265487" timestamp="2016-08-05T18:02:24Z" user="JuanVerde" uid="3474216" lat="-12.0673300" lon="-77.0751881"/>
+ <node id="1836204826" visible="true" version="3" changeset="41265487" timestamp="2016-08-05T18:02:24Z" user="JuanVerde" uid="3474216" lat="-12.0674450" lon="-77.0756782"/>
+ <node id="2341508266" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0659676" lon="-77.0752205"/>
+ <node id="2341508267" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0666024" lon="-77.0751991"/>
+ <node id="2341508268" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0665919" lon="-77.0743488"/>
+ <node id="2341508269" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0659467" lon="-77.0743676"/>
+ <node id="2341508270" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0661093" lon="-77.0750945"/>
+ <node id="2341508271" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0661093" lon="-77.0747109"/>
+ <node id="2341508272" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0664057" lon="-77.0747136"/>
+ <node id="2341508273" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:48Z" user="David Lau" uid="1483356" lat="-12.0664083" lon="-77.0750891"/>
+ <node id="2461127768" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:23Z" user="José Alberto" uid="1000770" lat="-12.0654330" lon="-77.0752823"/>
+ <node id="2461127770" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:23Z" user="José Alberto" uid="1000770" lat="-12.0664098" lon="-77.0757718"/>
+ <node id="2461127771" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:23Z" user="José Alberto" uid="1000770" lat="-12.0671742" lon="-77.0757197"/>
+ <node id="2461127772" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:23Z" user="José Alberto" uid="1000770" lat="-12.0667793" lon="-77.0757393"/>
+ <node id="2461127773" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:23Z" user="José Alberto" uid="1000770" lat="-12.0659380" lon="-77.0757847"/>
+ <node id="2461127774" visible="true" version="1" changeset="17878696" timestamp="2013-09-17T01:27:24Z" user="José Alberto" uid="1000770" lat="-12.0654453" lon="-77.0757913"/>
+ <node id="3121074225" visible="true" version="3" changeset="41265487" timestamp="2016-08-05T18:02:24Z" user="JuanVerde" uid="3474216" lat="-12.0676298" lon="-77.0756425"/>
+ <node id="4336221944" visible="true" version="2" changeset="41266275" timestamp="2016-08-05T18:27:12Z" user="JuanVerde" uid="3474216" lat="-12.0680683" lon="-77.0755193"/>
+ <node id="4337437332" visible="true" version="1" changeset="41266275" timestamp="2016-08-05T18:27:12Z" user="JuanVerde" uid="3474216" lat="-12.0678676" lon="-77.0755766">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="4431762933" visible="true" version="1" changeset="42644906" timestamp="2016-10-04T23:19:19Z" user="Diego Sanguinetti" uid="309382" lat="-12.0659183" lon="-77.0747023"/>
+ <node id="4431762934" visible="true" version="1" changeset="42644906" timestamp="2016-10-04T23:19:19Z" user="Diego Sanguinetti" uid="309382" lat="-12.0664682" lon="-77.0746755"/>
+ <node id="4431762935" visible="true" version="1" changeset="42644906" timestamp="2016-10-04T23:19:19Z" user="Diego Sanguinetti" uid="309382" lat="-12.0666170" lon="-77.0743884"/>
+ <node id="4560312148" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:38Z" user="Diego Sanguinetti" uid="309382" lat="-12.0663143" lon="-77.0746830"/>
+ <node id="4560312149" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:38Z" user="Diego Sanguinetti" uid="309382" lat="-12.0663104" lon="-77.0742648"/>
+ <node id="4560312150" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:38Z" user="Diego Sanguinetti" uid="309382" lat="-12.0664139" lon="-77.0746781"/>
+ <node id="4560312151" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:38Z" user="Diego Sanguinetti" uid="309382" lat="-12.0664310" lon="-77.0752563"/>
+ <node id="4560312171" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:39Z" user="Diego Sanguinetti" uid="309382" lat="-12.0655180" lon="-77.0756071"/>
+ <node id="4560312172" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:39Z" user="Diego Sanguinetti" uid="309382" lat="-12.0656034" lon="-77.0755999"/>
+ <node id="4560312173" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:39Z" user="Diego Sanguinetti" uid="309382" lat="-12.0656105" lon="-77.0755380"/>
+ <node id="4560312174" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:39Z" user="Diego Sanguinetti" uid="309382" lat="-12.0655287" lon="-77.0755380"/>
+ <node id="5434305562" visible="true" version="1" changeset="56648230" timestamp="2018-02-24T23:11:18Z" user="Diego Sanguinetti" uid="309382" lat="-12.0671888" lon="-77.0751997"/>
+ <node id="5434305563" visible="true" version="1" changeset="56648230" timestamp="2018-02-24T23:11:18Z" user="Diego Sanguinetti" uid="309382" lat="-12.0671609" lon="-77.0742496"/>
+ <node id="5577323025" visible="true" version="2" changeset="58739918" timestamp="2018-05-06T21:07:11Z" user="dannykath_peruimport" uid="7010188" lat="-12.0657816" lon="-77.0755785">
+  <tag k="addr:district" v="Lima"/>
+  <tag k="addr:full" v="Calle Santa Domitila 280"/>
+  <tag k="addr:province" v="Lima"/>
+  <tag k="addr:subdistrict" v="Lima Cercado"/>
+  <tag k="amenity" v="kindergarten"/>
+  <tag k="ele" v="156"/>
+  <tag k="isced:level" v="0"/>
+  <tag k="name" v="Institución educativa inicial Santa Domitila"/>
+  <tag k="note" v="Ubicacion_web_med (local)"/>
+  <tag k="ref" v="1491760"/>
+  <tag k="source" v="minedu.gob.pe"/>
+ </node>
+ <way id="41010155" visible="true" version="9" changeset="44494741" timestamp="2016-12-18T16:10:48Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="1836204803"/>
+  <nd ref="1836204804"/>
+ </way>
+ <way id="172756255" visible="true" version="3" changeset="42644906" timestamp="2016-10-04T23:19:23Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="499843649"/>
+  <nd ref="4431762933"/>
+  <nd ref="499843646"/>
+  <nd ref="2461127773"/>
+  <nd ref="499840956"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Santa Domitila"/>
+ </way>
+ <way id="172756261" visible="true" version="5" changeset="56648230" timestamp="2018-02-24T23:11:20Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="499841834"/>
+  <nd ref="1836204804"/>
+  <nd ref="499843649"/>
+  <nd ref="4560312149"/>
+  <nd ref="1273869776"/>
+  <nd ref="5434305563"/>
+  <nd ref="499841740"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Calle Santa Rosalia"/>
+ </way>
+ <way id="172756262" visible="true" version="3" changeset="25271812" timestamp="2014-09-06T17:41:38Z" user="Pacheking" uid="2316030">
+  <nd ref="499845695"/>
+  <nd ref="1355562698"/>
+  <nd ref="1836204801"/>
+  <nd ref="2461127768"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Calle Santa Natalia"/>
+ </way>
+ <way id="225365955" visible="true" version="1" changeset="16518732" timestamp="2013-06-12T03:45:50Z" user="David Lau" uid="1483356">
+  <nd ref="2341508266"/>
+  <nd ref="2341508267"/>
+  <nd ref="2341508268"/>
+  <nd ref="2341508269"/>
+  <nd ref="2341508266"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="225365956" visible="true" version="4" changeset="32316047" timestamp="2015-06-30T19:20:21Z" user="maggot27" uid="118021">
+  <nd ref="2341508270"/>
+  <nd ref="2341508271"/>
+  <nd ref="2341508272"/>
+  <nd ref="2341508273"/>
+  <nd ref="2341508270"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="note" v="También tiene un espacio de alquiler el local para fiestas."/>
+  <tag k="sport" v="soccer"/>
+ </way>
+ <way id="238266149" visible="true" version="4" changeset="56648230" timestamp="2018-02-24T23:11:20Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="499843646"/>
+  <nd ref="4560312151"/>
+  <nd ref="1273782551"/>
+  <nd ref="5434305562"/>
+  <nd ref="1836204825"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Santa Natalia"/>
+ </way>
+ <way id="238266152" visible="true" version="6" changeset="41266275" timestamp="2016-08-05T18:27:12Z" user="JuanVerde" uid="3474216">
+  <nd ref="2461127774"/>
+  <nd ref="2461127773"/>
+  <nd ref="2461127770"/>
+  <nd ref="2461127772"/>
+  <nd ref="2461127771"/>
+  <nd ref="1836204826"/>
+  <nd ref="3121074225"/>
+  <nd ref="4337437332"/>
+  <nd ref="316803496"/>
+  <nd ref="4336221944"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Santa Barbara"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+ <way id="445829695" visible="true" version="2" changeset="44494741" timestamp="2016-12-18T16:10:47Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="4431762933"/>
+  <nd ref="4560312148"/>
+  <nd ref="4560312150"/>
+  <nd ref="4431762934"/>
+  <nd ref="4431762935"/>
+  <tag k="footway" v="sidewalk"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="460360127" visible="true" version="1" changeset="44494741" timestamp="2016-12-18T16:10:42Z" user="Diego Sanguinetti" uid="309382">
+  <nd ref="4560312171"/>
+  <nd ref="4560312172"/>
+  <nd ref="4560312173"/>
+  <nd ref="4560312174"/>
+  <nd ref="4560312171"/>
+  <tag k="building" v="yes"/>
+ </way>
+</osm>

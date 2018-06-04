@@ -11,3 +11,7 @@ grafo = grafoOSM(archivo)
 # PRUEBA
 k = kruskal(grafo)
 mapeoarbol(grafo, k)
+
+#otros comentarios
+print("FIN")
+# comentarios para probar un segundo commit
