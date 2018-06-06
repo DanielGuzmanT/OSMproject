@@ -27,4 +27,3 @@ class Vertice:
         self.x = None
         self.y = None
         self.nombre = ""
-        self.autopista = False

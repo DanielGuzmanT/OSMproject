@@ -28,12 +28,11 @@ def imprimirGrafo(graph):
 	coory = []
 	name = []
 	for v in graph.dic_vertices.values():
-		if not v.autopista: continue # en caso no pertenezca a una autopista, no se imprime
 		coorx.append(v.x)
 		coory.append(v.y)
-		name.append(v.nombre)
+		name.append(v.id)
 	# nodos
-		plt.plot(coorx, coory, 'ro')
+	# plt.plot(coorx, coory, 'ro')
 	# nombres de las calles
 	imprimirNombres(coorx, coory, name)
 	# calles (vértices)

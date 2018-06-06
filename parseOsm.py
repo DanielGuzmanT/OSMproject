@@ -27,10 +27,7 @@ def agregarNodos(graph, root):
 
 def agregarAristas(graph, root):
     for way in root.findall("way"):
-        "obtenemos datos: autopista(boolean)-si es autopista, nombre(string)-el nombre de la calle"
-        autopista, nombre = obtenerDatosWay(way)
-        "en caso no sea una autopista, continua iterando con otros caminos o ways"
-        if not autopista: continue
+        nombre = obtenerNombreWay(way)
         "se inicia la conexión entre dos nodos de la misma calle"
         id1 = None   # id del nodo actual
         idant = None # id del nodo anterior
@@ -38,8 +35,6 @@ def agregarAristas(graph, root):
             id1 = nd.get("ref")
             # se agrega el nombre de la calle a todos los nodos que pertenecen a esta
             graph.dic_vertices[id1].nombre += nombre + '\n'
-            # se le señala como nodo perteneciente a una autopista
-            graph.dic_vertices[id1].autopista = True
             if idant != None:
                 # crear tupla (DISTANCIA, ID nodo 1, ID nodo Anterior) = una arista
                 # agregar la tupla creada en el conjunto de aristas del grafo
@@ -62,11 +57,8 @@ def distancia(lat1,lon1,lat2,lon2):
     dist=2*R*math.asin(math.sqrt(aux))
     return dist   #retornamos distania en kilometros 
 
-def obtenerDatosWay(way):
-    autopista = False
+def obtenerNombreWay(way):
     nombre = ""
     for tag in way.findall("tag"):
-        # highway no puede ser "*", el cual significa ser una calle cerrada
-        if tag.get("k") == "highway" and tag.get("v") != '*': autopista = True
-        elif tag.get("k") == "name": nombre = tag.get("v")
-    return autopista, nombre
+        if tag.get("k") == "name": nombre = tag.get("v")
+    return nombre
