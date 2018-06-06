@@ -1,18 +1,31 @@
 import xml.etree.ElementTree as et
 from grafos import Vertice
 
+
+
+
+def obtenerDatosWay(way):
+    autopista = False
+    nombre = ""
+    for tag in way.findall("tag"):
+        # highway no puede ser "*", el cual significa ser una calle cerrada
+        if tag.get("k") == "highway" and tag.get("v") != '*': autopista = True
+        elif tag.get("k") == "name": nombre = tag.get("v")
+        else: way.remove(tag)
+    return autopista, nombre
+
+##################################################################################################
 tree = et.parse('pucp.osm')
 root = tree.getroot()
-
 
 # eliminación de etiquetas relation
 for relation in root.findall("relation"):
 	root.remove(relation)
 
 # almacenamiento de todos los nodos en diccionario
-conj_nodos = {}
+dict_nodos = {}
 for nodo in root.findall("node"):
-	conj_nodos[nodo.get("id")] = 0
+	dict_nodos[nodo.get("id")] = 0
 
 # eliminación de caminos que no sean 'highway'
 # además, se aumenta el número de conexiones de cada nodo leído
@@ -23,25 +36,29 @@ for way in root.findall("way"):
     if not autopista:
     	root.remove(way)
     	continue
-    "se inicia la conexión entre dos nodos de la misma calle"
-    id1 = None   # id del nodo actual
-    idant = None # id del nodo anterior
+    else:
+    	way.attrib.pop("changeset")
+    	way.attrib.pop("timestamp")
+    	way.attrib.pop("uid")
+    	way.attrib.pop("user")
+    	way.attrib.pop("version")
+    	way.attrib.pop("visible")
+    "guardamos el número de aristas de los nodos en diccionario"
+    nd = way.find("nd")
+    dict_nodos[nd.get("ref")] = -1 # el primero solo debe tener 1 conexion en este camino
     for nd in way.findall("nd"):
-        id1 = nd.get("ref")
-        graph.dic_vertices[id1].autopista = True
-        if idant != None:
-            # crear tupla (DISTANCIA, ID nodo 1, ID nodo Anterior) = una arista
-            # agregar la tupla creada en el conjunto de aristas del grafo
-            graph.conj_aristas.add(crearTupla(graph, id1, idant))
-        idant = id1
+        dict_nodos[nd.get("ref")] += 2 # los nodos intermedios deben tener 2 conexiones en este camino
+    dict_nodos[nd.get("ref")] = -1 # el ultimo solo debe tener 1 conexion en este camino
+
+for nodo in root.findall("node"):
+	if not nodo.get("id") in dict_nodos:
+		root.remove(nodo)
+	else:
+		nodo.attrib.pop("changeset") 
+		nodo.attrib.pop("timestamp")
+		nodo.attrib.pop("uid")
+		nodo.attrib.pop("user")
+		nodo.attrib.pop("version")
+		nodo.attrib.pop("visible")
 tree.write('pucppurgado.xml')
 
-
-def obtenerDatosWay(way):
-    autopista = False
-    nombre = ""
-    for tag in way.findall("tag"):
-        # highway no puede ser "*", el cual significa ser una calle cerrada
-        if tag.get("k") == "highway" and tag.get("v") != '*': autopista = True
-        elif tag.get("k") == "name": nombre = tag.get("v")
-    return autopista, nombre
