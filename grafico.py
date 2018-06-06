@@ -33,8 +33,8 @@ def imprimirGrafo(graph):
 		coory.append(v.y)
 		name.append(v.nombre)
 	# nodos
-	# plt.plot(coorx, coory, 'ro')
+		plt.plot(coorx, coory, 'ro')
 	# nombres de las calles
-	# imprimirNombres(coorx, coory, name)
+	imprimirNombres(coorx, coory, name)
 	# calles (vértices)
 	imprimirCalles(graph.conj_aristas, graph)

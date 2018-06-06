@@ -37,7 +37,7 @@ def agregarAristas(graph, root):
         for nd in way.findall("nd"):
             id1 = nd.get("ref")
             # se agrega el nombre de la calle a todos los nodos que pertenecen a esta
-            graph.dic_vertices[id1].nombre += nombre + ' '
+            graph.dic_vertices[id1].nombre += nombre + '\n'
             # se le señala como nodo perteneciente a una autopista
             graph.dic_vertices[id1].autopista = True
             if idant != None:
@@ -58,7 +58,6 @@ def distancia(lat1,lon1,lat2,lon2):
     dlat=lat1*math.pi/180-lat2*math.pi/180  # diferencia de latitudes 
     dlon=lon1*math.pi/180-lon2*math.pi/180  # diferencia de longitudes
     R=6372.795477598 # Km del radio de la tierra
-
     aux=math.sin(dlat/2)**2 + math.cos(lat1*math.pi/180)*math.cos(lat2*math.pi/180)*(math.sin(dlon/2))**2
     dist=2*R*math.asin(math.sqrt(aux))
     return dist   #retornamos distania en kilometros 
@@ -67,6 +66,7 @@ def obtenerDatosWay(way):
     autopista = False
     nombre = ""
     for tag in way.findall("tag"):
-        if tag.get("k") == "highway": autopista = True
+        # highway no puede ser "*", el cual significa ser una calle cerrada
+        if tag.get("k") == "highway" and tag.get("v") != '*': autopista = True
         elif tag.get("k") == "name": nombre = tag.get("v")
     return autopista, nombre
