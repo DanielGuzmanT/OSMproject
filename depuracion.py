@@ -2,8 +2,6 @@ import xml.etree.ElementTree as et
 from grafos import Vertice
 
 
-
-
 def obtenerDatosWay(way):
     autopista = False
     nombre = ""
@@ -14,7 +12,7 @@ def obtenerDatosWay(way):
         else: way.remove(tag)
     return autopista, nombre
 
-##################################################################################################
+
 def depurar(archivo):
 	tree = et.parse(archivo)
 	root = tree.getroot()
@@ -61,4 +59,9 @@ def depurar(archivo):
 			nodo.attrib.pop("user")
 			nodo.attrib.pop("version")
 			nodo.attrib.pop("visible")
+			nodo.attrib["conexions"] = str(dict_nodos[nodo.get("id")])
 	tree.write('modificado.xml')
+
+archivo = 'mapa.osm'
+depurar(archivo)
+print("FIN")
