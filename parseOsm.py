@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as et
 import math
 from grafos import *
+
 '''
 Dato un archivo .osm o .xml que almacena nodos y caminos,
 se retorna un grafo que almacene todos estos datos usando
@@ -50,11 +51,11 @@ def crearTupla(graph, id1, idant):
     return tupla
 
 def distancia(lat1,lon1,lat2,lon2):
-    dlat=lat1*math.pi/180-lat2*math.pi/180  # diferencia de latitudes 
-    dlon=lon1*math.pi/180-lon2*math.pi/180  # diferencia de longitudes
-    R=6372.795477598 # Km del radio de la tierra
-    aux=math.sin(dlat/2)**2 + math.cos(lat1*math.pi/180)*math.cos(lat2*math.pi/180)*(math.sin(dlon/2))**2
-    dist=2*R*math.asin(math.sqrt(aux))
+    dlat = lat1 * math.pi / 180 - lat2 * math.pi / 180  # diferencia de latitudes 
+    dlon = lon1 * math.pi / 180 - lon2 * math.pi / 180  # diferencia de longitudes
+    R = 6372.795477598 # Km del radio de la tierra
+    aux = math.sin(dlat / 2) ** 2 + math.cos(lat1 * math.pi / 180) * math.cos(lat2 * math.pi / 180) * (math.sin(dlon / 2)) ** 2
+    dist = 2 * R * math.asin(math.sqrt(aux))
     return dist   #retornamos distania en kilometros 
 
 def obtenerNombreWay(way):
